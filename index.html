@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Gerenciador de Professores</title>
+</head>
+<body>
+
+
+ <form method="post"  action="Login.do">
+     
+      <h1> Gerenciador de Professores     
+      </h1>
+      
+     
+       <p>   
+            <button type="button" class="btn btn-primary">Cadastrar</button>
+            
+             <button type="button" class="btn btn-primary">Consultar</button>
+             
+             <button type="button" class="btn btn-primary">Alterar</button>
+              
+   		
+      </p>
+      
+      
+        <p> Olá, Faça seu Login para
+        
+        <button type="button" class="btn btn-secondary">Listar</button>
+        
+        <button type="button" class="btn btn-danger">Excluir</button> 		
+   	        
+        </p>
+     
+      conta: <input type="text"  name="conta">
+      senha: <input type="password" name="senha">
+     
+      <input type="submit"  value="enviar">
+ 
+ 
+  
+ </form>
+ 
+ <br>
+  <h3> Cadastrar Professor &#128517;</h3>
+   
+<form method="post"  action="CadastrarProfessor.do">
+     
+       <p> 
+      Matricula: <input type="number" name="matricula_professor" /> <br>
+      <br>
+      CPF: <input type="text" name="cpf_professor" /> <br>
+      <br>
+      Nome:<input type="text" name="nome_professor" /> <br>
+      <br>
+      Endereco: <input type="text" name="endereco_professor" /> <br>
+      <br>
+      
+     <input type="submit"  value="Cadastrar"> 
+     
+     <input type="reset"  value="Limpar">
+         
+     
+      </p>
+      
+ 
+ </form>
+ 
+  <br>
+  
+<form method="post"  action="AlterarProfessor.do">
+     
+       <h3> Alterar Professor  &#128520; </h3>
+   
+       <p> 
+      Matricula: <input type="number" name="matricula_professor" /> <br>
+      <br>
+ 
+      Nome:<input type="text" name="nome_professor" /> <br>
+      <br>
+    
+      
+     <input type="submit"  value="Alterar"> 
+     
+     <input type="reset"  value="Limpar">
+         
+     
+      </p>
+      
+ 
+ </form>
+
+<form method="post"  action="Consulta.do">
+     
+       <h3> Consultar Professor &#128522;</h3>
+   
+       <p> 
+      Matricula: <input type="number" name="matricula_professor" /> <br>
+      <br>
+ 
+      Nome:<input type="text" name="nome_professor" /> <br>
+      <br>
+    
+      
+     <input type="submit"  value="Alterar"> 
+     
+     <input type="reset"  value="Limpar">
+         
+     
+      </p>
+      
+ 
+ </form>
+ 
+
+</body>
+</html>
